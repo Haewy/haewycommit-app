@@ -1,0 +1,23 @@
+[
+  {
+    "imgsrc": "/images/christmas.png",
+    "title": "Christmas",
+    "desc": "A casual game made with Unity",
+    "skills": ["Unity", "C#"],
+    "source": "https://www.github.com"
+  },
+  {
+    "imgsrc": "/images/food.png",
+    "title": "Food Order",
+    "desc": "Food Order App made with React",
+    "skills": ["React", "JavaScript", "Express"],
+    "source": ""
+  },
+  {
+    "imgsrc": "/images/todolist.png",
+    "title": "To Do List",
+    "desc": "To Do List App made with React",
+    "skills": ["React", "JavaScript", "Express"],
+    "source": ""
+  }
+]

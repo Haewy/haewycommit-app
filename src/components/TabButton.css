@@ -1,0 +1,44 @@
+.tab-container {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-right: 200px;
+  text-align: left;
+  color: #ffb2b2;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+/* .tab-container:hover {
+
+  font-weight: 500;
+} */
+.tab {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-right: 200px;
+  text-align: left;
+  color: #c93d3d;
+  cursor: pointer;
+  transition: margin-right 1s ease;
+}
+@media screen and (max-width: 860px) {
+  .tab-container {
+    margin-right: 20px;
+  }
+  .tab {
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .tab-container {
+    margin-right: 10px;
+  }
+  .tab {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 395px) {
+}

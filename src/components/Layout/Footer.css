@@ -1,0 +1,39 @@
+.footer {
+  width: 100%;
+  padding: 3rem 0;
+  background: #ff8888;
+
+  /*margin-top: auto
+  To make its margin fill the remaining space 
+  between it and its previous sibling.*/
+  margin-top: auto;
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* position: absolute; */
+  /* bottom: 0; */
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+.heart {
+  margin: 2px 5px 0 5px;
+}
+h4 {
+  text-align: center;
+  color: #feffd9;
+  font-size: 0.9rem;
+  font-weight: 100;
+  margin-bottom: 5px;
+}
+
+.list-icon {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.list-icon li {
+  margin: 0 3rem;
+}

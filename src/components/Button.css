@@ -1,0 +1,20 @@
+.btn-div {
+  margin: 20px 0;
+}
+.btn-div a {
+  border-bottom: none;
+  text-decoration: none;
+}
+.btn-div .btn-p {
+  /* color: #ff8888; */
+  color: #feffd9;
+  font-size: 20px;
+  border-bottom: 2px solid;
+}
+.btn-div .btn-p:hover {
+  cursor: pointer;
+  color: #feffd9ad;
+}
+.btn-more {
+  background-color: transparent;
+}

@@ -1,0 +1,16 @@
+.project-container {
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+  background-color: aqua;
+}
+.project-container .project-content {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 5fr);
+  grid-gap: 5px;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 780px) {
+}

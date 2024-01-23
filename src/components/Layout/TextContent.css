@@ -1,0 +1,129 @@
+.text-content {
+  padding-top: 100px;
+  width: 100%;
+  background: #feffd9;
+  height: 100%;
+
+  /*when it is relative, nav menu
+  does not appear by covering this*/
+  /* position: relative; */
+}
+.heading-container {
+  margin-top: 150px;
+  margin-left: 115px;
+  margin-right: 70px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+
+  transition: margin-top 0.5s ease;
+  transition: margin-left 0.5s ease;
+}
+.heading-container .text-heading {
+  color: #c93d3d;
+
+  font-weight: 400;
+  font-size: 20px;
+}
+.heading-container .text-desc-s {
+  width: 370px;
+
+  font-family: "DM Sans", sans-serif;
+  color: #c93d3d;
+  font-size: 5rem;
+  font-weight: bolder;
+
+  text-align: left;
+  text-transform: uppercase;
+
+  line-height: 100%;
+  transition: font-size 1s ease;
+  transition: width 1s ease;
+  display: block;
+  animation: text-content-rise 1s ease;
+}
+
+.heading-container .text-desc-l {
+  width: 600px;
+
+  font-family: "DM Sans", sans-serif;
+  color: #c93d3d;
+  font-size: 5rem;
+  font-weight: bolder;
+
+  text-align: left;
+  text-transform: uppercase;
+
+  line-height: 100%;
+  transition: font-size 1s ease;
+  transition: width 1s ease;
+  display: block;
+  animation: text-content-rise 1s ease;
+}
+@media screen and (max-width: 1280px) {
+  .heading-container {
+    margin-top: 100px;
+    margin-left: 80px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .heading-container {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  .heading-container .text-desc-s {
+    font-size: 4rem;
+  }
+  .heading-container .text-desc-l {
+    font-size: 4rem;
+    width: 500px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .heading-container {
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  .heading-container .text-desc-s {
+    font-size: 4rem;
+    width: 350px;
+  }
+  .heading-container .text-desc-l {
+    font-size: 4rem;
+    width: 360px;
+  }
+}
+@media screen and (max-width: 395px) {
+  .heading-container .text-desc-s {
+    width: 320px;
+    font-size: 3.5rem;
+    margin: 0;
+  }
+  .heading-container .text-desc-l {
+    width: 320px;
+    font-size: 3.5rem;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 360px) {
+  .heading-container .text-desc-s {
+    width: 280px;
+    font-size: 3.2rem;
+    margin: 0;
+  }
+  .heading-container .text-desc-l {
+    width: 280px;
+    font-size: 3.2rem;
+    margin: 0;
+  }
+}
+@keyframes text-content-rise {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

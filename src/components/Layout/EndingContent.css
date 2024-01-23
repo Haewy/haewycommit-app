@@ -1,0 +1,90 @@
+.ending-content {
+  /* height: 15vh; */
+
+  width: 100%;
+  /* background: gray; */
+  padding-bottom: 20px;
+  background: #ff8888;
+
+  /*Removed position absolute
+  for footer position*/
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  bottom: 152px;
+}
+.btn-ending {
+  /* background: gold; */
+  margin-right: 60px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.htwo {
+  width: 600px;
+  font-family: "DM Sans", sans-serif;
+  color: #feffd9;
+  font-size: 5rem;
+  line-height: 100%;
+  text-align: right;
+  margin-right: 60px;
+
+  padding-top: 20px;
+  margin-bottom: 25px;
+  transition: font-size 1s ease;
+}
+@media (max-width: 1350px) {
+  .htwo {
+    font-size: 4rem;
+    margin-right: 30px;
+  }
+  .btn-ending {
+    margin-right: 30px;
+  }
+}
+@media (max-width: 940px) {
+  .htwo {
+    font-size: 4rem;
+    margin-right: 30px;
+  }
+  .btn-ending {
+    margin-right: 30px;
+  }
+}
+@media (max-width: 760px) {
+  .htwo {
+    font-size: 3.5rem;
+    margin-right: 20px;
+  }
+  .btn-ending {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 580px) {
+  .htwo {
+    width: 480px;
+    font-size: 3rem;
+    margin-right: 20px;
+  }
+  .btn-ending {
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 395px) {
+  .htwo {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .htwo {
+    width: 280px;
+    margin-right: 10px;
+  }
+  .btn-ending {
+    margin-right: 10px;
+  }
+}

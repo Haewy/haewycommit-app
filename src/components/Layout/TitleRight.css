@@ -1,0 +1,98 @@
+.titleR-container {
+  width: 100%;
+  /* height: 30vh; */
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* background: #ecece1; */
+  background: #feffd9;
+}
+.titleR-container .titleR-right-content {
+  /* margin: auto; */
+  margin: auto 100px auto 100px;
+  max-width: 300px;
+  min-width: 200px;
+  text-align: right;
+  width: 250px;
+
+  border-bottom: 0.2rem solid;
+  border-color: #ff8888;
+  /* border-right: 0.7rem solid;
+  border-color: #ff8888; */
+  /* background: rebeccapurple; */
+}
+.titleR-container .titleR-left-content {
+  margin: auto 0px auto 50px;
+  text-align: right;
+  width: 450px;
+  color: #a6211c;
+
+  /* background: rgb(124, 220, 124); */
+}
+.titleR-container .titleR-left-content .titleR-year {
+  margin-top: 5px;
+  margin-bottom: -4px;
+  color: #a25755;
+}
+.titleR-categories {
+  /* font-family: "Concert One", sans-serif; */
+  font-family: "Exo 2", sans-serif;
+  text-align: left;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #a6211c;
+}
+.titleR-detail {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 100;
+  margin-left: 0;
+  text-align: right;
+  /* color: rgb(43, 43, 85); */
+  color: #681411;
+}
+@media screen and (max-width: 800px) {
+  .titleR-container {
+    margin: auto 0;
+    height: 300px;
+    min-width: 190px;
+    display: flex;
+    flex-direction: column-reverse;
+    /* background-color: aqua; */
+  }
+  .titleR-container .titleR-right-content {
+    border-bottom: 0.2rem solid;
+    border-color: transparent;
+  }
+  .titleR-container .titleR-left-content .titleR-year {
+    margin-top: 10px;
+  }
+
+  .titleR-right-content .titleR-categories {
+    text-align: right;
+    padding-right: 20px;
+    margin-right: -50px;
+
+    border-right: 0.7rem solid;
+    border-color: #ff8888;
+    font-size: 1.6rem;
+    font-weight: bold;
+    /* background-color: coral; */
+  }
+  .titleR-left-content {
+    border-left: 0.1rem solid;
+    border-color: #ff8888;
+  }
+  .titleR-left-content .titleR-detail {
+    margin-top: 8px;
+    font-size: 0.7rem;
+  }
+  .titleR-container .titleR-left-content {
+    /* min-width: 300px; */
+    width: 330px;
+    margin: auto;
+    /* background-color: chartreuse; */
+  }
+}
